@@ -1,0 +1,22 @@
+body{
+    color:black;
+    background:beige;
+    margin: 20px;
+}
+herder{
+    border-bottom:solid 2px  black;
+    padding: 20px;
+    font-size:32 px;
+    color:rgba(0, 0, 0, 0.64);
+} 
+
+section{
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
