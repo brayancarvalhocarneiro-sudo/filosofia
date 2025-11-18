@@ -2,15 +2,16 @@ body{
     color:black;
     background:beige;
     margin: 20px;
+    font-family: "Alfa Slab One", sans-serif;
 }
-herder{
+header{
     border-bottom:solid 2px  black;
     padding: 20px;
     font-size:32 px;
     color:rgba(0, 0, 0, 0.64);
 } 
 
-section{
+.chamada {
     background: white;
     padding-bottom: 80px;
     padding-top: 80px;
@@ -19,4 +20,25 @@ section{
 }
 .chamada-texto{
     margin-right: 5%;
+}
+h1 {
+    font-size: 40px;
+}
+p{
+    font-size: 20x;
+}
+
+img {
+  height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+ .categoria {
+  padding-left: 20px;
+  padding-right: 20px;
 }
